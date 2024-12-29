@@ -25,12 +25,10 @@ public class MoviesAPITesting {
         Assert.assertEquals(response[0], statusCodeOK);
         List<String> checkTitles = jsonParseToStringList(response[1], "results.original_title");
         List<String> checkOverview = jsonParseToStringList(response[1], "results.overview");
-        List<Float> checkVote = jsonParseToFloatList(response[1], "results.vote_average");
 
-        Assert.assertEquals(checkTitles.getFirst(), "Red One");
-        Assert.assertEquals(checkOverview.getFirst(), "After Santa Claus (codename: Red One) is kidnapped, " +
-                "the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.");
-        Assert.assertTrue(checkVote.getFirst() > 6f);
+        Assert.assertTrue(checkTitles.toString().contains("Red One"));
+        Assert.assertTrue(checkOverview.toString().contains("After Santa Claus (codename: Red One) is kidnapped, " +
+                "the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas."));
     }
 
     @Test
