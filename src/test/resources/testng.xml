@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ColendiTMDBAutomation">
+    <test thread-count="1" name="TMDB">
+        <classes>
+            <class name="testcases.AuthenticationManagement"/>
+            <class name="testcases.MoviesAPITesting"/>
+            <class name="testcases.TVShowsAPITesting"/>
+            <class name="testcases.PersonAPITesting"/>
+            <class name="testcases.UserListsAndFavorites"/>
+            <class name="testcases.SearchFunctionalityTesting"/>
+            <class name="testcases.ErrorHandlingCases"/>
+        </classes>
+    </test>
+</suite>

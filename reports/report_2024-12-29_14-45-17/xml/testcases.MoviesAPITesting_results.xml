@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TMDB"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.186">
+    <properties></properties>
+
+
+
+            <testcase
+                name="retrievePopularMovies"
+                time="0.105"
+                classname="testcases.MoviesAPITesting">
+            </testcase>
+            <testcase
+                name="movieDetails"
+                time="0.081"
+                classname="testcases.MoviesAPITesting">
+            </testcase>
+</testsuite>

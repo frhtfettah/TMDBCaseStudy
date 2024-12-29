@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TMDB"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.305">
+    <properties></properties>
+
+
+
+            <testcase
+                name="lists"
+                time="0.188"
+                classname="testcases.AuthenticationManagement">
+            </testcase>
+            <testcase
+                name="favoriteMovies"
+                time="0.232"
+                classname="testcases.AuthenticationManagement">
+            </testcase>
+            <testcase
+                name="authenticationSuccess"
+                time="1.695"
+                classname="testcases.AuthenticationManagement">
+            </testcase>
+            <testcase
+                name="ratedMovies"
+                time="0.190"
+                classname="testcases.AuthenticationManagement">
+            </testcase>
+</testsuite>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-29T17:44:45 GMT+03:00" name="ColendiTMDBAutomation" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="8530">
+    <groups>
+    </groups>
+    <test started-at="2024-12-29T17:44:45 GMT+03:00" name="TMDB" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="8530">
+      <class name="testcases.MoviesAPITesting">
+        <test-method signature="movieDetails()[pri:0, instance:testcases.MoviesAPITesting@79924b]" started-at="2024-12-29T17:44:47 GMT+03:00" name="movieDetails" finished-at="2024-12-29T17:44:47 GMT+03:00" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movieDetails -->
+        <test-method signature="retrievePopularMovies()[pri:0, instance:testcases.MoviesAPITesting@79924b]" started-at="2024-12-29T17:44:47 GMT+03:00" name="retrievePopularMovies" finished-at="2024-12-29T17:44:47 GMT+03:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrievePopularMovies -->
+      </class> <!-- testcases.MoviesAPITesting -->
+      <class name="testcases.ErrorHandlingCases">
+        <test-method signature="addFavoriteWithInvalidParameter()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:52 GMT+03:00" name="addFavoriteWithInvalidParameter" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFavoriteWithInvalidParameter -->
+        <test-method signature="addItemToListWithInvalidParameters()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:52 GMT+03:00" name="addItemToListWithInvalidParameters" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToListWithInvalidParameters -->
+        <test-method signature="authenticationEmpty()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:52 GMT+03:00" name="authenticationEmpty" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationEmpty -->
+        <test-method signature="authenticationInvalidToken()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:53 GMT+03:00" name="authenticationInvalidToken" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationInvalidToken -->
+        <test-method signature="createListWithInvalidSessionId()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:53 GMT+03:00" name="createListWithInvalidSessionId" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListWithInvalidSessionId -->
+        <test-method signature="invalidMovieId()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:53 GMT+03:00" name="invalidMovieId" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMovieId -->
+        <test-method signature="trendingWithWrongTimeline()[pri:0, instance:testcases.ErrorHandlingCases@294425a7]" started-at="2024-12-29T17:44:53 GMT+03:00" name="trendingWithWrongTimeline" finished-at="2024-12-29T17:44:53 GMT+03:00" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trendingWithWrongTimeline -->
+      </class> <!-- testcases.ErrorHandlingCases -->
+      <class name="testcases.PersonAPITesting">
+        <test-method signature="movieDetails()[pri:0, instance:testcases.PersonAPITesting@4a94ee4]" started-at="2024-12-29T17:44:48 GMT+03:00" name="movieDetails" finished-at="2024-12-29T17:44:48 GMT+03:00" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movieDetails -->
+        <test-method signature="popularPeople()[pri:0, instance:testcases.PersonAPITesting@4a94ee4]" started-at="2024-12-29T17:44:48 GMT+03:00" name="popularPeople" finished-at="2024-12-29T17:44:48 GMT+03:00" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularPeople -->
+      </class> <!-- testcases.PersonAPITesting -->
+      <class name="testcases.SearchFunctionalityTesting">
+        <test-method signature="searchCollection()[pri:0, instance:testcases.SearchFunctionalityTesting@6379eb]" started-at="2024-12-29T17:44:52 GMT+03:00" name="searchCollection" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCollection -->
+        <test-method signature="searchKeyword()[pri:0, instance:testcases.SearchFunctionalityTesting@6379eb]" started-at="2024-12-29T17:44:52 GMT+03:00" name="searchKeyword" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchKeyword -->
+        <test-method signature="searchMovies()[pri:0, instance:testcases.SearchFunctionalityTesting@6379eb]" started-at="2024-12-29T17:44:52 GMT+03:00" name="searchMovies" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+        <test-method signature="searchPerson()[pri:0, instance:testcases.SearchFunctionalityTesting@6379eb]" started-at="2024-12-29T17:44:52 GMT+03:00" name="searchPerson" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPerson -->
+        <test-method signature="searchTV()[pri:0, instance:testcases.SearchFunctionalityTesting@6379eb]" started-at="2024-12-29T17:44:52 GMT+03:00" name="searchTV" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTV -->
+      </class> <!-- testcases.SearchFunctionalityTesting -->
+      <class name="testcases.UserListsAndFavorites">
+        <test-method signature="createList()[pri:1, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:48 GMT+03:00" name="createList" finished-at="2024-12-29T17:44:48 GMT+03:00" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method signature="addItemToList()[pri:2, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:48 GMT+03:00" name="addItemToList" finished-at="2024-12-29T17:44:49 GMT+03:00" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToList -->
+        <test-method signature="checkList()[pri:3, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:49 GMT+03:00" name="checkList" finished-at="2024-12-29T17:44:49 GMT+03:00" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkList -->
+        <test-method signature="removeItemFromList()[pri:4, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:49 GMT+03:00" name="removeItemFromList" finished-at="2024-12-29T17:44:49 GMT+03:00" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromList -->
+        <test-method signature="deleteList()[pri:5, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:49 GMT+03:00" name="deleteList" finished-at="2024-12-29T17:44:49 GMT+03:00" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method signature="addMovieToFavoriteList()[pri:6, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:49 GMT+03:00" name="addMovieToFavoriteList" finished-at="2024-12-29T17:44:50 GMT+03:00" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMovieToFavoriteList -->
+        <test-method signature="addMovieToWatchList()[pri:6, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:50 GMT+03:00" name="addMovieToWatchList" finished-at="2024-12-29T17:44:50 GMT+03:00" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMovieToWatchList -->
+        <test-method signature="addTvToFavoriteList()[pri:6, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:50 GMT+03:00" name="addTvToFavoriteList" finished-at="2024-12-29T17:44:50 GMT+03:00" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTvToFavoriteList -->
+        <test-method signature="addTvToWatchList()[pri:6, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:50 GMT+03:00" name="addTvToWatchList" finished-at="2024-12-29T17:44:50 GMT+03:00" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTvToWatchList -->
+        <test-method signature="favoriteMovie()[pri:7, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:50 GMT+03:00" name="favoriteMovie" finished-at="2024-12-29T17:44:50 GMT+03:00" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favoriteMovie -->
+        <test-method signature="favoriteTv()[pri:7, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:50 GMT+03:00" name="favoriteTv" finished-at="2024-12-29T17:44:51 GMT+03:00" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favoriteTv -->
+        <test-method signature="watchlistMovie()[pri:7, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:51 GMT+03:00" name="watchlistMovie" finished-at="2024-12-29T17:44:51 GMT+03:00" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchlistMovie -->
+        <test-method signature="watchlistTv()[pri:7, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:51 GMT+03:00" name="watchlistTv" finished-at="2024-12-29T17:44:51 GMT+03:00" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchlistTv -->
+        <test-method signature="removeMovieFromFavoriteList()[pri:8, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:51 GMT+03:00" name="removeMovieFromFavoriteList" finished-at="2024-12-29T17:44:51 GMT+03:00" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMovieFromFavoriteList -->
+        <test-method signature="removeMovieFromWatchList()[pri:8, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:51 GMT+03:00" name="removeMovieFromWatchList" finished-at="2024-12-29T17:44:51 GMT+03:00" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMovieFromWatchList -->
+        <test-method signature="removeTvFromFavoriteList()[pri:8, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:51 GMT+03:00" name="removeTvFromFavoriteList" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTvFromFavoriteList -->
+        <test-method signature="removeTvFromWatchList()[pri:8, instance:testcases.UserListsAndFavorites@4cc451f2]" started-at="2024-12-29T17:44:52 GMT+03:00" name="removeTvFromWatchList" finished-at="2024-12-29T17:44:52 GMT+03:00" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTvFromWatchList -->
+      </class> <!-- testcases.UserListsAndFavorites -->
+      <class name="testcases.AuthenticationManagement">
+        <test-method signature="authenticationSuccess()[pri:0, instance:testcases.AuthenticationManagement@5ffead27]" started-at="2024-12-29T17:44:45 GMT+03:00" name="authenticationSuccess" finished-at="2024-12-29T17:44:46 GMT+03:00" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationSuccess -->
+        <test-method signature="favoriteMovies()[pri:0, instance:testcases.AuthenticationManagement@5ffead27]" started-at="2024-12-29T17:44:46 GMT+03:00" name="favoriteMovies" finished-at="2024-12-29T17:44:47 GMT+03:00" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favoriteMovies -->
+        <test-method signature="lists()[pri:0, instance:testcases.AuthenticationManagement@5ffead27]" started-at="2024-12-29T17:44:47 GMT+03:00" name="lists" finished-at="2024-12-29T17:44:47 GMT+03:00" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lists -->
+        <test-method signature="ratedMovies()[pri:0, instance:testcases.AuthenticationManagement@5ffead27]" started-at="2024-12-29T17:44:47 GMT+03:00" name="ratedMovies" finished-at="2024-12-29T17:44:47 GMT+03:00" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratedMovies -->
+      </class> <!-- testcases.AuthenticationManagement -->
+      <class name="testcases.TVShowsAPITesting">
+        <test-method signature="popularTVShows()[pri:0, instance:testcases.TVShowsAPITesting@7b9a4292]" started-at="2024-12-29T17:44:47 GMT+03:00" name="popularTVShows" finished-at="2024-12-29T17:44:47 GMT+03:00" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularTVShows -->
+        <test-method signature="trendingTVShowsWeekly()[pri:0, instance:testcases.TVShowsAPITesting@7b9a4292]" started-at="2024-12-29T17:44:47 GMT+03:00" name="trendingTVShowsWeekly" finished-at="2024-12-29T17:44:48 GMT+03:00" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trendingTVShowsWeekly -->
+        <test-method signature="tvShowDetails()[pri:0, instance:testcases.TVShowsAPITesting@7b9a4292]" started-at="2024-12-29T17:44:48 GMT+03:00" name="tvShowDetails" finished-at="2024-12-29T17:44:48 GMT+03:00" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvShowDetails -->
+      </class> <!-- testcases.TVShowsAPITesting -->
+    </test> <!-- TMDB -->
+  </suite> <!-- ColendiTMDBAutomation -->
+</testng-results>

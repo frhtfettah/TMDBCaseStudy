@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TMDB"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.099">
+    <properties></properties>
+
+
+
+            <testcase
+                name="searchKeyword"
+                time="0.183"
+                classname="testcases.SearchFunctionalityTesting">
+            </testcase>
+            <testcase
+                name="searchPerson"
+                time="1.301"
+                classname="testcases.SearchFunctionalityTesting">
+            </testcase>
+            <testcase
+                name="searchMovies"
+                time="0.177"
+                classname="testcases.SearchFunctionalityTesting">
+            </testcase>
+            <testcase
+                name="searchTV"
+                time="0.255"
+                classname="testcases.SearchFunctionalityTesting">
+            </testcase>
+            <testcase
+                name="searchCollection"
+                time="0.183"
+                classname="testcases.SearchFunctionalityTesting">
+            </testcase>
+</testsuite>

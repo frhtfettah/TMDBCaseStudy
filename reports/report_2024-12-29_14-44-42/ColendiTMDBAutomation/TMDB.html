@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>TestNG:  TMDB</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TMDB</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 29 17:44:45 GMT+03:00 2024</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8530 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.SearchFunctionalityTesting.searchKeyword()'><b>searchKeyword</b><br>Test class: testcases.SearchFunctionalityTesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.SearchFunctionalityTesting@6379eb</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.authenticationEmpty()'><b>authenticationEmpty</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.SearchFunctionalityTesting.searchCollection()'><b>searchCollection</b><br>Test class: testcases.SearchFunctionalityTesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.SearchFunctionalityTesting@6379eb</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.authenticationInvalidToken()'><b>authenticationInvalidToken</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.addMovieToWatchList()'><b>addMovieToWatchList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.removeItemFromList()'><b>removeItemFromList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.SearchFunctionalityTesting.searchMovies()'><b>searchMovies</b><br>Test class: testcases.SearchFunctionalityTesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.SearchFunctionalityTesting@6379eb</td></tr>
+<tr>
+<td title='testcases.SearchFunctionalityTesting.searchTV()'><b>searchTV</b><br>Test class: testcases.SearchFunctionalityTesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.SearchFunctionalityTesting@6379eb</td></tr>
+<tr>
+<td title='testcases.TVShowsAPITesting.popularTVShows()'><b>popularTVShows</b><br>Test class: testcases.TVShowsAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.TVShowsAPITesting@7b9a4292</td></tr>
+<tr>
+<td title='testcases.TVShowsAPITesting.trendingTVShowsWeekly()'><b>trendingTVShowsWeekly</b><br>Test class: testcases.TVShowsAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.TVShowsAPITesting@7b9a4292</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.removeMovieFromWatchList()'><b>removeMovieFromWatchList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.removeTvFromFavoriteList()'><b>removeTvFromFavoriteList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.createListWithInvalidSessionId()'><b>createListWithInvalidSessionId</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.checkList()'><b>checkList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.addTvToWatchList()'><b>addTvToWatchList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.PersonAPITesting.movieDetails()'><b>movieDetails</b><br>Test class: testcases.PersonAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.PersonAPITesting@4a94ee4</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.favoriteTv()'><b>favoriteTv</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.AuthenticationManagement.lists()'><b>lists</b><br>Test class: testcases.AuthenticationManagement</td>
+<td></td>
+<td>0</td>
+<td>testcases.AuthenticationManagement@5ffead27</td></tr>
+<tr>
+<td title='testcases.TVShowsAPITesting.tvShowDetails()'><b>tvShowDetails</b><br>Test class: testcases.TVShowsAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.TVShowsAPITesting@7b9a4292</td></tr>
+<tr>
+<td title='testcases.AuthenticationManagement.favoriteMovies()'><b>favoriteMovies</b><br>Test class: testcases.AuthenticationManagement</td>
+<td></td>
+<td>0</td>
+<td>testcases.AuthenticationManagement@5ffead27</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.addItemToList()'><b>addItemToList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.watchlistTv()'><b>watchlistTv</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.deleteList()'><b>deleteList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.trendingWithWrongTimeline()'><b>trendingWithWrongTimeline</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.createList()'><b>createList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.favoriteMovie()'><b>favoriteMovie</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.PersonAPITesting.popularPeople()'><b>popularPeople</b><br>Test class: testcases.PersonAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.PersonAPITesting@4a94ee4</td></tr>
+<tr>
+<td title='testcases.AuthenticationManagement.authenticationSuccess()'><b>authenticationSuccess</b><br>Test class: testcases.AuthenticationManagement</td>
+<td></td>
+<td>1</td>
+<td>testcases.AuthenticationManagement@5ffead27</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.addItemToListWithInvalidParameters()'><b>addItemToListWithInvalidParameters</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.addMovieToFavoriteList()'><b>addMovieToFavoriteList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.MoviesAPITesting.retrievePopularMovies()'><b>retrievePopularMovies</b><br>Test class: testcases.MoviesAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.MoviesAPITesting@79924b</td></tr>
+<tr>
+<td title='testcases.AuthenticationManagement.ratedMovies()'><b>ratedMovies</b><br>Test class: testcases.AuthenticationManagement</td>
+<td></td>
+<td>0</td>
+<td>testcases.AuthenticationManagement@5ffead27</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.invalidMovieId()'><b>invalidMovieId</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.ErrorHandlingCases.addFavoriteWithInvalidParameter()'><b>addFavoriteWithInvalidParameter</b><br>Test class: testcases.ErrorHandlingCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.ErrorHandlingCases@294425a7</td></tr>
+<tr>
+<td title='testcases.SearchFunctionalityTesting.searchPerson()'><b>searchPerson</b><br>Test class: testcases.SearchFunctionalityTesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.SearchFunctionalityTesting@6379eb</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.addTvToFavoriteList()'><b>addTvToFavoriteList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.watchlistMovie()'><b>watchlistMovie</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.MoviesAPITesting.movieDetails()'><b>movieDetails</b><br>Test class: testcases.MoviesAPITesting</td>
+<td></td>
+<td>0</td>
+<td>testcases.MoviesAPITesting@79924b</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.removeTvFromWatchList()'><b>removeTvFromWatchList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+<tr>
+<td title='testcases.UserListsAndFavorites.removeMovieFromFavoriteList()'><b>removeMovieFromFavoriteList</b><br>Test class: testcases.UserListsAndFavorites</td>
+<td></td>
+<td>0</td>
+<td>testcases.UserListsAndFavorites@4cc451f2</td></tr>
+</table><p>
+</body>
+</html>

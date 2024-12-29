@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TMDB"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.224">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createListWithInvalidSessionId"
+                time="0.180"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+            <testcase
+                name="addItemToListWithInvalidParameters"
+                time="0.182"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+            <testcase
+                name="addFavoriteWithInvalidParameter"
+                time="0.177"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+            <testcase
+                name="invalidMovieId"
+                time="0.174"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+            <testcase
+                name="authenticationInvalidToken"
+                time="0.172"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+            <testcase
+                name="authenticationEmpty"
+                time="0.168"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+            <testcase
+                name="trendingWithWrongTimeline"
+                time="0.171"
+                classname="testcases.ErrorHandlingCases">
+            </testcase>
+</testsuite>

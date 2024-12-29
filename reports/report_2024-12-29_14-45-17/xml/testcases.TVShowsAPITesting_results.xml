@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TMDB"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.196">
+    <properties></properties>
+
+
+
+            <testcase
+                name="popularTVShows"
+                time="0.074"
+                classname="testcases.TVShowsAPITesting">
+            </testcase>
+            <testcase
+                name="trendingTVShowsWeekly"
+                time="0.057"
+                classname="testcases.TVShowsAPITesting">
+            </testcase>
+            <testcase
+                name="tvShowDetails"
+                time="0.065"
+                classname="testcases.TVShowsAPITesting">
+            </testcase>
+</testsuite>
