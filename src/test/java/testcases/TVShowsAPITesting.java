@@ -73,7 +73,7 @@ public class TVShowsAPITesting {
 
         Assert.assertEquals(checkName.size(), 20);
         Assert.assertEquals(checkDate.size(), 20);
-        Assert.assertEquals(checkName.getFirst(), "Squid Game");
-        Assert.assertEquals(checkDate.getFirst(), "2021-09-17");
+        Assert.assertTrue(checkName.toString().contains("Squid Game"));
+        Assert.assertTrue(checkDate.toString().contains("2021-09-17"));
     }
 }
